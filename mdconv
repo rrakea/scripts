@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source /home/rrakea/code/proj/mdconv/venv/bin/activate
+echo Converting $1 to markdown\n
+python /home/rrakea/code/proj/mdconv/main.py $1
+deactivate

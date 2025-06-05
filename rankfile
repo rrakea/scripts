@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Rank: Left-Right (Row)"
+echo "File: Up-Down (Column)"

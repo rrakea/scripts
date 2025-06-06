@@ -5,3 +5,4 @@ yay -Syu
 flatpak update
 rustup update
 brew update
+echo "Done!"

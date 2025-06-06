@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd $HOME/conf
+git pull origin main
+
+cd $HOME/code/scripts
+git pull origin main
+
+cd $HOME/code/proj/feroxyhyte
+git pull origin main

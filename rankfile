@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo "Rank: left right"
-echo "File: up down"
-
+echo "Rank: Left-Right (Row)"
+echo "File: Up-Down (Column)"

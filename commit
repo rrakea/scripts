@@ -1,0 +1,7 @@
+#!/bin/bash
+git add .
+git commit
+git pull origin main
+git push origin main
+
+

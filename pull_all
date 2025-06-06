@@ -6,5 +6,5 @@ git pull origin main
 cd $HOME/code/scripts
 git pull origin main
 
-cd $HOME/code/feroxyhyde
+cd $HOME/code/proj/feroxyhyte
 git pull origin main

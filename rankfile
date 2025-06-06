@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Rank: left right"
+echo "File: up down"
+

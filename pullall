@@ -8,3 +8,6 @@ git pull origin main
 
 cd $HOME/code/proj/feroxyhyte
 git pull origin main
+
+cd $HOME/code/proj/magic_calc
+git pull origin main

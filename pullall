@@ -1,13 +1,13 @@
 #!/bin/bash
 
-cd $HOME/conf
+cd 
 git pull origin main
 
-cd $HOME/code/scripts
+cd 
 git pull origin main
 
-cd $HOME/code/proj/feroxyhyte
+cd 
 git pull origin main
 
-cd $HOME/code/proj/magic_calc
+cd 
 git pull origin main

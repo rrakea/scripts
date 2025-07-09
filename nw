@@ -1,0 +1,34 @@
+#!/bin/zsh
+case $1 in
+  on)
+  nmcli networking on
+  ;;
+
+  off)
+  nmcli networking off
+  ;;
+
+  restart)
+  nmcli networking off
+  nmcli networking on
+  ;;
+
+  search)
+  nw=$(nmcli -f SSID device wifi list --rescan yes | tail -n +2 | awk '!seen[$0]++' | head -n 5)
+  print -P "%F{blue}${nw}"
+  ;;
+
+  con)
+  read "?Wifi Name: " name
+  nmcli device wifi connect $name
+  ;;
+
+  discon)
+  nmcli device disconnect wlan0
+  ;;
+
+  *)
+  echo "Invalid command"
+  ;;
+esac
+

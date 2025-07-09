@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+dirs=$HOME/code/scripts/git_dirs
+file=$(cat $dirs)
+
+for line in $file
+do
+	cd line
+	commit
+done

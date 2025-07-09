@@ -1,6 +1,6 @@
 #!/bin/bash
 
 commitall
-pushall
+pullall
 update
-shutdown
+shutdown 0

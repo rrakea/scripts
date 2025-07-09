@@ -5,6 +5,6 @@ file=$(cat $dirs)
 
 for line in $file
 do
-	cd line
+	cd $line
 	commit
 done

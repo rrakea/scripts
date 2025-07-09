@@ -1,0 +1,6 @@
+#!/bin/bash
+
+commitall
+pushall
+update
+shutdown

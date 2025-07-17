@@ -28,7 +28,7 @@ case $1 in
   ;;
 
   *)
-  echo "Invalid command"
+  echo "Commands: on; off; restart; search; con; discon"
   ;;
 esac
 

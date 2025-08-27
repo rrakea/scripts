@@ -1,6 +1,0 @@
-#!/bin/bash
-
-commitall
-pullall
-update
-shutdown 0
